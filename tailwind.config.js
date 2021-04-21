@@ -4,7 +4,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'hero': "url('/images/White-room-Photo-Master-bowater-1200x450_c.jpeg')"
+      })
+    },
   },
   variants: {
     extend: {},
