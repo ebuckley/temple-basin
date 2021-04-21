@@ -1,0 +1,19 @@
+{
+  "name": "templeblazin",
+  "version": "1.0.0",
+  "description": "Temple Basin website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview --port 5001"
+  },
+  "author": "Ersin Buckley",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1",
+    "vite": "^2.2.1"
+  }
+}

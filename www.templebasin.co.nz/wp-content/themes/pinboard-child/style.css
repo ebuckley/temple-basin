@@ -1,0 +1,74 @@
+/*
+ Theme Name:     Pinboard Child  
+ Theme URI:      www.templebasin.co.nz
+ Description:    Child Theme for Temple Basin Ski Area  
+ Author:         Ryan Charmley            
+ Template:       pinboard                
+*/
+
+@import url("../pinboard/style.css");
+
+.page .entry-title {
+   display: none;
+}
+
+#access li li a:hover {
+background: #dd3333;
+}
+
+.weather {
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 29px;
+    width: 61px;
+    background-color: #f0f;
+    background: url(/wp-content/plugins/templesnowreport/weather-icons.gif);
+}
+
+.report td .weather {
+    margin: 0 auto; 
+}
+.snow-showers  { background-position: -0px   0; }
+.overcast      { background-position: -61px  0; }
+.blizzard      { background-position: -122px 0; }
+.rain-and-snow { background-position: -183px 0; }
+.cloudy        { background-position: -244px 0; }
+.high-cloud    { background-position: -244px 0; }
+.mixed         { background-position: -244px 0; }
+.sunny         { background-position: -305px 0; }
+.snow          { background-position: -366px 0; }
+.wind-and-snow { background-position: -427px 0; }
+.windy         { background-position: -488px 0; }
+.rain          { background-position: -549px 0; }
+.rain-showers  { background-position: -610px 0; }
+
+.widget table th, .widget table td {
+padding: 0px 0px;
+background:none;
+}
+.widget h4 {
+    padding:0px;
+    margin-bottom:4px;
+    margin-top:8px;
+}
+
+table tr:nth-child(even) {
+	background:none;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
